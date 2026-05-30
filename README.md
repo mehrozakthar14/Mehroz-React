@@ -6,7 +6,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
 ## 🌐 Live Website
-**URL:** [https://amresh.aediax.com](https://amresh.aediax.com)
+**URL:** [https://mehroz-akthar.web.app](https://mehroz-akthar.web.app)
 
 ## 📱 Website Pages
 - **Home:** `/` - Landing page with introduction
@@ -99,7 +99,7 @@ mehroz-portfolio/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/mehrozakthar14
+git clone https://github.com/mehrozakthar14/Mehroz-React.git
 cd portfolio
 ```
 
@@ -111,7 +111,7 @@ npm install
 ### 3. Set Up Environment Variables
 Create `.env` file:
 ```env
-REACT_APP_SITE_URL=https://amresh.aediax.com
+REACT_APP_SITE_URL= https://mehroz-akthar.web.app
 REACT_APP_GA_MEASUREMENT_ID=G-XXXXXXXXXX
 ```
 
@@ -150,10 +150,10 @@ npm run deploy
 <title>Mehroz Akthar | Software Developer | AediaX</title>
 <meta name="description" content="Mehroz Akthar is a  Software Engineer,  AediaX Tech Private Limited." />
 <meta property="og:title" content="Mehroz Akthar | Software Developer | AediaX" />
-<meta property="og:url" content="https://amresh.aediax.com" />
-<meta property="og:image" content="https://amresh.aediax.com/og-image.png" />
+<meta property="og:url" content="https://mehroz-akthar.web.app" />
+<meta property="og:image" content=" https://mehroz-akthar.web.app/og-image.png" />
 ```
-
+git add
 ### XML Sitemap Generation
 Automatically generated during build:
 ```bash
