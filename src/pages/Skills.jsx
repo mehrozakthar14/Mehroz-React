@@ -55,7 +55,7 @@ function Skills() {
   );
 
   // Create meta description
-  const metaDescription = `Tanmay Sahu's technical skills include ${technicalSkills.slice(0, 5).map(s => s.name).join(', ')} and more. Professional skills: ${professionalSkills.slice(0, 3).map(s => s.name).join(', ')}.`;
+  const metaDescription = `Mehroz Akthar's technical skills include ${technicalSkills.slice(0, 5).map(s => s.name).join(', ')} and more. Professional skills: ${professionalSkills.slice(0, 3).map(s => s.name).join(', ')}.`;
 
   // Create skills list for structured data
   const allSkills = [...technicalSkills, ...professionalSkills];
@@ -63,19 +63,19 @@ function Skills() {
   return (
     <>
       <Helmet>
-        <title>Skills |Tanmay Sahu - Technical & Professional Expertise</title>
+        <title>Skills |Mehroz Akthar - Technical & Professional Expertise</title>
         <meta 
           name="description" 
           content={metaDescription}
         />
         <meta 
           name="keywords" 
-          content={`Tanmay Sahu skills, ${technicalSkills.map(s => s.name).join(', ')}, web development skills, programming skills, technical expertise, professional skills`}
+          content={`Mehroz Akthar skills, ${technicalSkills.map(s => s.name).join(', ')}, web development skills, programming skills, technical expertise, professional skills`}
         />
         
        
         {/* Additional meta tags */}
-        <meta name="author" content="Tanmay Sahu" />
+        <meta name="author" content="Mehroz Akthar" />
         <meta name="robots" content="index, follow" />
         <meta name="language" content="English" />
         <meta name="rating" content="General" />
@@ -85,8 +85,8 @@ function Skills() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Tanmay Sahu",
-            "url": "https://tanmaysahu.com",
+            "name": "Mehroz Akthar",
+            "url": "https://mehrozakthar.com",
             "description": "Web Developer ",
             "knowsAbout": technicalSkills.map(skill => skill.name),
             "hasOccupation": {
@@ -153,13 +153,13 @@ function Skills() {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://tanmaysahu.com"
+                "item": "https://mehrozakthar.com"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Skills",
-                "item": "https://tanmaysahu.com/skills"
+                "item": "https://mehrozakthar.com/skills"
               }
             ]
           })}

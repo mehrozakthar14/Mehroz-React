@@ -34,7 +34,7 @@ function Projects() {
       title: "My Native place",
       description: "A simple web page using multipage concepts",
       tech: ['HTML','CSS','JavaScript'],
-      link: "https://github.com/tanmayyysss/-mynative-place",
+      link: "https://mehrozakthar14.github.io/native/",
       icon: <LanguageIcon className={styles.icon} />,
       color: styles.green
     },
@@ -42,7 +42,7 @@ function Projects() {
      title: "Portfolio",
       description: "This is my first project- My first Portfolio website ",
       tech: ['HTML','CSS','JavaScript'],
-      link: "https://github.com/tanmayyysss/Tanmay-portfolio",
+      link: "https://mehroz-portfolio.web.app",
       icon: <LanguageIcon className={styles.icon} />,
       color: styles.green
     }
@@ -50,24 +50,24 @@ function Projects() {
   ];
 
   // Create meta description from projects
-  const metaDescription = `Professional projects by Tanmay Sahu including ${projects.slice(0, 3).map(p => p.title).join(', ')} and more. Explore enterprise solutions, AI systems, and research publications.`;
+  const metaDescription = `Professional projects by Mehroz Akthar including ${projects.slice(0, 3).map(p => p.title).join(', ')} and more. Explore enterprise solutions, AI systems, and research publications.`;
 
   return (
     <>
       <Helmet>
-        <title>Projects by Tanmay Sahu,AI Systems</title>
+        <title>Projects by Mehroz Akthar,AI Systems</title>
         <meta 
           name="description" 
           content={metaDescription}
         />
         <meta 
           name="keywords" 
-          content="Tanmay Sahu projects, web development projects, AI systems, React projects, enterprise solutions, library management system, signature verification, research publications"
+          content="Mehroz Akthar projects, web development projects, AI systems, React projects, enterprise solutions, library management system, signature verification, research publications"
         />
         
        
         {/* Additional meta tags */}
-        <meta name="author" content="Tanmay Sahu"/>
+        <meta name="author" content="Mehroz Akthar"/>
         <meta name="robots" content="index, follow" />
         <meta name="language" content="English" />
         
@@ -76,9 +76,9 @@ function Projects() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ItemList",
-            "name": "Projects Portfolio - Tanmay Sahu",
-            "description": "Collection of professional projects and contributions by Tanmay Sahu",
-            "url": "https://tanmaysahu.projects",
+            "name": "Projects Portfolio - Mehroz Akthar",
+            "description": "Collection of professional projects and contributions by Mehroz Akthar",
+            "url": "https://mehrozakthar.projects",
             "numberOfItems": projects.length,
             "itemListElement": projects.map((project, index) => ({
               "@type": "ListItem",
@@ -87,11 +87,11 @@ function Projects() {
                 "@type": "CreativeWork",
                 "name": project.title,
                 "description": project.description,
-                "url": project.link || "https://tanmaysahu.projects",
+                "url": project.link || "https://mehrozakthar.projects",
                 "keywords": project.tech.join(", "),
                 "author": {
                   "@type": "Person",
-                  "name": "Tanmay Sahu"}
+                  "name": "Mehroz Akthar"}
               }
             }))
           })}
@@ -107,7 +107,7 @@ function Projects() {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://tanmaysahu.com"
+                "item": "https://mehrozakthar.com"
               }
             ]
           })}
@@ -157,11 +157,8 @@ function Projects() {
                     itemProp="url"
                     aria-label={`Visit ${project.title}`}
                   >
-                    {project.title.includes('Library') ? 'Visit Platform' : 
-                     project.title.includes('NAMAMI') ? 'Company Website' :
-                     project.title.includes('FLAVR') ? 'Explore Platform' :
-                     project.title.includes('Pragati') ? 'Visit Website' :
-                     project.title.includes('Research') ? 'View Publication' :
+                    {project.title.includes('Native place') ? 'Visit Platform' :  
+                    project.title.includes('PORTFOLIO') ? 'View Publication' :
                      'View Project'}
                   </Link>
                 )}

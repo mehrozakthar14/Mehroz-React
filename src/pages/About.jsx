@@ -8,23 +8,23 @@ function About() {
     <>
       {/* ===== SEO META TAGS ===== */}
       <Helmet>
-        <title>About Tanmay Sahu | full-stack software developer – AediaX Tech Private Limited</title>
+        <title>About Mehroz Akthar | full-stack software developer – AediaX Tech Private Limited</title>
 
         <meta
           name="description"
-          content="Learn about Tanmay Sahu, full-stack software developer of AediaX Tech Private Limited. An Indian full-stack software developer and entrepreneur building AI-driven enterprise and academic management systems."
+          content="Learn about Mehroz Akthar, full-stack software developer of AediaX Tech Private Limited. An Indian full-stack software developer and entrepreneur building AI-driven enterprise and academic management systems."
         />
 
         <meta
           name="keywords"
-          content="Tanmay Sahu, AediaX Tech, Full Stack Developer"
+          content="Mehroz Akthar, AediaX Tech, Full Stack Developer"
         />
 
         <meta name="author" content="AediaX Tech Private Limited" />
         <meta name="robots" content="index, follow" />
 
         {/* Open Graph (Social Sharing) */}
-        <meta property="og:title" content="About Tanmay Sahu | AediaX Tech" />
+        <meta property="og:title" content="About Mehroz Akthar | AediaX Tech" />
         <meta
           property="og:description"
           content="full-stack software developer intern at AediaX Tech Private Limited, building AI-powered software, enterprise platforms, and scalable digital systems."
@@ -37,7 +37,7 @@ function About() {
      <Box id={styles.aboutSection} className={styles.aboutContainer}>
 
       <Typography id={styles.aboutTitle} variant="h2" className={styles.title}>
-        About Tanmay Sahu
+        About Mehroz Akthar
       </Typography>
 
       <Typography id={styles.aboutSubtitle} variant="h5" className={styles.subtitle}>
@@ -46,14 +46,14 @@ function About() {
 
       {/* Biography */}
       <Typography id={styles.bioPara1} className={styles.bio}>
-        Tanmay Sahu (born 3rd March 2005) is an Indian full-stack software developer,
+        Mehroz Akthar (born 14th February 2006) is an Indian full-stack software developer,
         Sambalpur, Odisha (768001). 
       </Typography>
 
       
 
       <Typography id={styles.bioPara3} className={styles.bio}>
-        He is currently pursuing a Bachelor in Information Science and Telecommunication 
+        She is currently pursuing a Bachelor in Information Science and Telecommunication 
          (2024–2027).
       </Typography>
 
@@ -68,7 +68,7 @@ function About() {
             </Typography>
 
             <Typography id={styles.professionalRoleText} className={styles.cardText}>
-              Tanmay Sahu serves as the full-stack software developer intern at AediaX Tech
+              Mehroz Akthar serves as the full-stack software developer intern at AediaX Tech
               Private Limited.
             </Typography>
 
@@ -83,8 +83,8 @@ function About() {
             </Typography>
 
             <Typography id={styles.academicText} className={styles.cardText}>
-              Tanmay is a BSc. student in Information Science and Telecommunication
-              (2024–2027). His academic journey reflects a balance between theoretical
+              Mehroz is a BSc. student in Information Science and Telecommunication
+              (2024–2027). Her academic journey reflects a balance between theoretical
               foundations and real-world application, with strong emphasis on software
               development principles and emerging technologies.
             </Typography>

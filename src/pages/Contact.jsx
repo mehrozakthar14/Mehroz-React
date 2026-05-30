@@ -20,7 +20,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const mailto = `mailto:tanmay03062005@gmail.com?subject=${encodeURIComponent(
+    const mailto = `mailto:aktharmehroz@gmail.com?subject=${encodeURIComponent(
       formData.subject
     )}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
@@ -32,14 +32,14 @@ function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact Tanmay Sahu | Full Stack Developer</title>
+        <title>Contact Mehroz Akthar | Full Stack Developer</title>
         <meta 
           name="description" 
-          content="Get in touch with Tanmay Sahu for , projects, or discussions about web development." 
+          content="Get in touch with Mehroz Akthar for , projects, or discussions about web development." 
         />
         <meta 
           name="keywords" 
-          content="Tanmay Sahu contact, web developer contact,technology discussion" 
+          content="Mehroz Akthar contact, web developer contact,technology discussion" 
         />
         
        
@@ -47,7 +47,7 @@ function Contact() {
         
         
         {/* Additional meta tags */}
-        <meta name="author" content="Tanmay Sahu" />
+        <meta name="author" content="Mehroz Akthar" />
         <meta name="robots" content="index, follow" />
         <meta name="language" content="English" />
         
@@ -57,32 +57,32 @@ function Contact() {
             {
               "@context": "https://schema.org",
               "@type": "ContactPage",
-              "name": "Contact Tanmay Sahu",
-              "description": "Contact page for Tanmay Sahu - Full Stack Developer",
-              "url": "https://tanmaysahu.com/contact",
+              "name": "Contact Mehroz Akthar",
+              "description": "Contact page for Mehroz Akthar - Full Stack Developer",
+              "url": "https://aktharmehroz.com/contact",
               "author": {
                 "@type": "Person",
-                "name": "Tanmay Sahu",
+                "name": "Mehroz Akthar",
                 "jobTitle": "Full Stack Developer",
-                "email": "tanmay03062005@gmail.com",
-                "url": "https://tanmaysahu.com"
+                "email": "/aktharmehroz@gmail.com",
+                "url": "https:///aktharmehroz.com"
               },
               "contactPoint": [
                 {
                   "@type": "ContactPoint",
-                  "email": "tanmay03062005@gmail.com",
+                  "email": "/aktharmehroz@gmail.com",
                   "contactType": "personal",
                   "availableLanguage": "English"
                 },
                 {
                   "@type": "ContactPoint",
-                  "email": "tanmay03062005@aediax.com",
+                  "email": "/aktharmehroz@aediax.com",
                   "contactType": "work",
                   "availableLanguage": "English"
                 },
                 {
                   "@type": "ContactPoint",
-                  "telephone": "+91 9692611477",
+                  "telephone": "+91 8658250315",
                   "contactType": "customer service",
                   "contactOption": "TollFree",
                   "areaServed": "IN",
@@ -107,23 +107,23 @@ function Contact() {
         <Box className={styles.contactInfo}>
           <Typography>
             <EmailIcon fontSize="small" />{' '}
-            <strong>Personal:</strong> tanmay03062005@gmail.com
+            <strong>Personal:</strong> aktharmehroz@gmail.com
           </Typography>
 
           <Typography>
             <EmailIcon fontSize="small" />{' '}
-            <strong>Official:</strong> tanmay03062005@aediax.com
+            <strong>Official:</strong> aktharmehroz@aediax.com
           </Typography>
 
           <Typography>
             <WhatsAppIcon fontSize="small" />{' '}
             <Link
-              href="https://wa.me/91 9692611477"
+              href="https://wa.me/91 8658250315"
               target="_blank"
               underline="none"
               aria-label="Contact via WhatsApp"
             >
-              +91 96926 11477 (WhatsApp)
+              +91 8658250315 (WhatsApp)
             </Link>
           </Typography>
         </Box>

@@ -12,10 +12,10 @@ function NotFound() {
   return (
     <>
       <Helmet>
-        <title>404 - Page Not Found | Tanmay Sahu</title>
+        <title>404 - Page Not Found |Mehroz Akthar</title>
         <meta 
           name="description" 
-          content="The page you're looking for doesn't exist or has been moved. Return to Tanmay Sahu's ."/>
+          content="The page you're looking for doesn't exist or has been moved. Return to Mehroz Akthar's ."/>
         <meta name="robots" content="noindex, follow" />
       </Helmet>
 

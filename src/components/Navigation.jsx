@@ -38,7 +38,7 @@ function Navigation() {
       <Box className={styles.drawerLogo}>
         <img src={Logo} alt="Logo" className={styles.drawerLogoImage} />
         <Typography className={styles.drawerLogoText}>
-         Tanmay Sahu
+         Mehroz Akthar
         </Typography>
       </Box>
 
@@ -84,7 +84,7 @@ function Navigation() {
           <Link to="/" className={styles.logoContainer}>
             <img src={Logo} alt="Logo" className={styles.logoImage} />
             <Typography className={styles.logoText}>
-             Tanmay Sahu
+             Mehroz Akthar
             </Typography>
           </Link>
 

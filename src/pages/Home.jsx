@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Typography, Button, Paper } from '@mui/material';
-import TanmayImage from "../assets/logo.png";
+import MehrozImage from "../assets/logo.png";
 import styles from '../styles/Home.module.css';
 
 /* Professional Roles */
@@ -59,7 +59,7 @@ function Home() {
             variant="h2"
             className={styles.name}
           >
-            Tanmay Sahu
+            Mehroz Akthar
           </Typography>
 
           <Typography
@@ -102,8 +102,8 @@ function Home() {
           >
             <img
               id={styles.profileImg}
-              src={TanmayImage}
-              alt="tanmay Sahu"
+              src={MehrozImage}
+              alt="Mehroz Akthar"
               className={styles.profileImage}
             />
           </Paper>

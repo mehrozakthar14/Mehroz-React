@@ -39,7 +39,7 @@ function Services() {
   ];
 
   // Create meta description from services
-  const metaDescription = `Professional services by Tanmay Sahu including ${services.map(s => s.category).join(', ')}. Offering enterprise-grade solutions in web, mobile, AI, and security.`;
+  const metaDescription = `Professional services by Mehroz Akthar including ${services.map(s => s.category).join(', ')}. Offering enterprise-grade solutions in web, mobile, AI, and security.`;
 
   // Create keywords from all tech stacks
   const allKeywords = Array.from(new Set(services.flatMap(s => s.tech))).join(', ');
@@ -47,19 +47,19 @@ function Services() {
   return (
     <>
       <Helmet>
-        <title>Services | Tanmay Sahu - Web, Mobile, AI & Security Solutions</title>
+        <title>Services |Mehroz Akthar - Web, Mobile, AI & Security Solutions</title>
         <meta 
           name="description" 
           content={metaDescription}
         />
         <meta 
           name="keywords" 
-          content={`Tanmay Sahu services, ${allKeywords}, web development, mobile app development, AI solutions, cybersecurity, training, mentorship`}
+          content={`Mehroz Akthar services, ${allKeywords}, web development, mobile app development, AI solutions, cybersecurity, training, mentorship`}
         />
         
         
         {/* Additional meta tags */}
-        <meta name="author" content="Tanmay Sahu" />
+        <meta name="author" content="Mehroz Akthar" />
         <meta name="robots" content="index, follow" />
         <meta name="language" content="English" />
         <meta name="subject" content="Web Development, Mobile Development, AI Solutions" />
@@ -70,15 +70,15 @@ function Services() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "name": "Tanmay Sahu Development Services",
+            "name": "Mehroz Akthar Development Services",
             "description": "Professional web, mobile, AI, and security development services",
-            "url": "https://tanmaysahu.com/services",
+            "url": "https://mehrozakthar.com/services",
             "provider": {
               "@type": "Person",
-              "name": "Tanmay Sahu",
+              "name": "Mehroz Akthar",
               "jobTitle": "Web Developer & AI Engineer",
-              "email": "tanmay03062005@gmail.com",
-              "url": "https://tanmaysahu.com"
+              "email": "aktharmehroz@gmail.com",
+              "url": "https://mehrozakthar.com"
             },
             "areaServed": {
               "@type": "Country",
@@ -97,7 +97,7 @@ function Services() {
                   "serviceType": service.tech.join(", "),
                   "provider": {
                     "@type": "Person",
-                    "name": "Tanmay Sahu"
+                    "name": "Mehroz Akthar"
                   }
                 },
                 "position": index + 1
@@ -116,13 +116,13 @@ function Services() {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://tanmaysahu.com"
+                "item": "https://mehrozakthar.com"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Services",
-                "item": "https://tanmaysahu.com/services"
+                "item": "https://mehrozakthar.com/services"
               }
             ]
           })}

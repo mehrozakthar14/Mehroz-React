@@ -3,8 +3,7 @@ import { Box, Typography, Link, Tooltip } from '@mui/material';
 
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
-import PhoneIcon from '@mui/icons-material/Phone';
-import InstagramIcon from '@mui/icons-material/Instagram';        
+import PhoneIcon from '@mui/icons-material/Phone';       
 import GitHubIcon from '@mui/icons-material/GitHub';                
 
 import styles from '../styles/Footer.module.css';
@@ -42,31 +41,26 @@ function Footer() {
         <Box className={styles.socialLinks}>
 
           <Tooltip title="LinkedIn">
-            <Link href="https://www.linkedin.com/in/tanmay-sahu-5a608237a" target="_blank" className={styles.socialLink}>
+            <Link href="https://www.linkedin.com/in/mehroz-akthar-a7a994383" target="_blank" className={styles.socialLink}>
               <LinkedInIcon />
             </Link>
           </Tooltip>
 
           <Tooltip title="Email">
-            <Link href="mailto:tanmay03062005@gmail.com" className={styles.socialLink}>
+            <Link href="mailto:mehrozakthar@gmail.com" className={styles.socialLink}>
               <EmailIcon />
             </Link>
           </Tooltip>
 
           <Tooltip title="Phone / WhatsApp">
-            <Link href="tel:+91 9692611477" className={styles.socialLink}>
+            <Link href="tel:+91 8658250315" className={styles.socialLink}>
               <PhoneIcon />
             </Link>
           </Tooltip>
 
-          <Tooltip title="Instagram">
-            <Link href="https://www.instagram.com/tanmayyyys/" target="_blank" className={styles.socialLink}>
-              <InstagramIcon />
-            </Link>
-          </Tooltip>
 
           <Tooltip title="GitHub">
-            <Link href="https://github.com/tanmayyysss" target="_blank" className={styles.socialLink}>
+            <Link href="https://github.com/mehrozakthar14" target="_blank" className={styles.socialLink}>
               <GitHubIcon />
             </Link>
           </Tooltip>
@@ -81,7 +75,7 @@ function Footer() {
 
       {/* Copyright */}
       <Typography variant="body2" className={styles.text}>
-        © {currentYear} <strong>Tanmay Sahu</strong> ·Full Stack Developer , AediaX Tech Private Limited
+        © {currentYear} <strong>Mehroz Akthar</strong> ·Full Stack Developer , AediaX Tech Private Limited
       </Typography>
     </Box>
   );
