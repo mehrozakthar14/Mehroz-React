@@ -56,7 +56,7 @@
 ## 📁 Project Structure
 
 ```bash
-amresh-portfolio/
+mehroz-portfolio/
 ├── public/
 │   ├── index.html
 │   ├── favicon.ico
@@ -99,7 +99,7 @@ amresh-portfolio/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/amreshbhuyan/portfolio.git
+git clone https://github.com/mehrozakthar14
 cd portfolio
 ```
 
@@ -147,9 +147,9 @@ npm run deploy
 
 ### Meta Tags in `index.html`
 ```html
-<title>Amresh Bhuyan | Tech Entrepreneur | Founder & CEO of AediaX</title>
-<meta name="description" content="Amresh Bhuyan is a Tech Entrepreneur, Software Engineer, and Founder & CEO of AediaX Tech Private Limited." />
-<meta property="og:title" content="Amresh Bhuyan | Founder & CEO of AediaX" />
+<title>Mehroz Akthar | Software Developer | AediaX</title>
+<meta name="description" content="Mehroz Akthar is a  Software Engineer,  AediaX Tech Private Limited." />
+<meta property="og:title" content="Mehroz Akthar | Software Developer | AediaX" />
 <meta property="og:url" content="https://amresh.aediax.com" />
 <meta property="og:image" content="https://amresh.aediax.com/og-image.png" />
 ```
@@ -201,22 +201,9 @@ npm run submit:sitemap
 
 ## 🔗 Important Links
 
-### Personal Links
-```markdown
-- **Portfolio:** [https://amresh.aediax.com](https://amresh.aediax.com)
-- **Company:** [https://aediax.com](https://aediax.com)
-- **GitHub:** [https://github.com/amreshbhuyan](https://github.com/amreshbhuyan)
-- **LinkedIn:** [https://linkedin.com/in/amreshbhuyan](https://linkedin.com/in/amreshbhuyan)
-- **Email:** amreshbhuyanone@gmail.com
 ```
 
-### Project Links
-```markdown
-- **SUIIT Library:** [https://library.suiit.ac.in](https://library.suiit.ac.in)
-- **Namami India:** [https://namamiindia.co.in](https://namamiindia.co.in)
-- **Flavr Apogi:** [https://flavrapogi.com](https://flavrapogi.com)
-- **Pragati Security:** [https://pragatisecurity.com](https://pragatisecurity.com)
-```
+
 
 ## 🛠️ Available Scripts
 
@@ -241,14 +228,7 @@ This project is proprietary and owned by Amresh Bhuyan. All rights reserved.
 
 For any queries or collaborations:
 
-```yaml
-Name: Amresh Bhuyan
-Role: Founder & CEO, AediaX Tech Private Limited
-Email: amreshbhuyanone@gmail.com
-Official: amreshbhuyan@aediax.com
-Phone: +91 78549 98757 (WhatsApp)
-Website: https://amresh.aediax.com
-```
+
 
 ---
 
